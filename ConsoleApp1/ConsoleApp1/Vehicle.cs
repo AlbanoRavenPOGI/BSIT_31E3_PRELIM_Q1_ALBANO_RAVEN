@@ -1,8 +1,7 @@
-namespace TransportChallenge;
-
-public class Vehicle
+public abstract class Vehicle
 {
-    public Vehicle()
-    {
-    }
+    public string Name { get; set; }
+    protected Vehicle(string name) { Name = name; }
+
+    public abstract string Move(); // return string, not void
 }
