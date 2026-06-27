@@ -13,7 +13,7 @@ public static class TransportResolver
             case "motorcycle": return new Motorcycle();
             case "submarine": return new Submarine();
             case "drone": return new Drone();
-            default: return null; // Invalid input handled gracefully
+            default: return null; 
         }
     }
 }
